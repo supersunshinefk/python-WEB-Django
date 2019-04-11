@@ -1,0 +1,819 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-05 15:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\account\admin.py:19 .\account\models.py:33 .\account\models.py:34
+msgid "account"
+msgstr "账户"
+
+#: .\account\admin.py:20 .\account\admin.py:80 .\account\admin.py:137
+#: .\data\admin.py:17 .\data\admin.py:29 .\data\admin.py:42
+#: .\message\admin.py:17 .\object\admin.py:18 .\object\admin.py:70
+#: .\output\admin.py:18 .\parameter\admin.py:17 .\parameter\admin.py:65
+#: .\preprocess\admin.py:17 .\preprocess\admin.py:72 .\program\admin.py:17
+#: .\project\admin.py:23 .\source\admin.py:18 .\source\admin.py:66
+msgid "description"
+msgstr "详细描述"
+
+#: .\account\admin.py:42
+#, python-format
+msgid "Successfully enabled %s account."
+msgstr "成功启用 %s 个账户。"
+
+#: .\account\admin.py:46
+msgid "enable the selected account"
+msgstr "启用所选的 账户"
+
+#: .\account\admin.py:62
+#, python-format
+msgid "Successfully disable %s account."
+msgstr "成功停用 %s 个账户。"
+
+#: .\account\admin.py:66
+msgid "disable the selected account"
+msgstr "停用所选的 账户"
+
+#: .\account\admin.py:78 .\account\models.py:119 .\account\models.py:120
+msgid "bill"
+msgstr "账单"
+
+#: .\account\admin.py:100
+#, python-format
+msgid "Successfully enabled %s bill."
+msgstr "成功启用 %s 个账单。"
+
+#: .\account\admin.py:104
+msgid "enable the selected bill"
+msgstr "启用所选的 账单。"
+
+#: .\account\admin.py:119
+#, python-format
+msgid "Successfully disable %s bill."
+msgstr "成功停用 %s 个账单。"
+
+#: .\account\admin.py:123
+msgid "disable the selected bill"
+msgstr "停用所选的 账单"
+
+#: .\account\admin.py:135 .\account\models.py:197 .\account\models.py:198
+msgid "service_rate"
+msgstr "资费"
+
+#: .\account\admin.py:157
+#, python-format
+msgid "Successfully enabled %s service rate"
+msgstr "成功启用 %s 个资费。"
+
+#: .\account\admin.py:161
+msgid "enable the selected service rate"
+msgstr "启用所选的 资费"
+
+#: .\account\admin.py:175
+#, python-format
+msgid "Successfully disable %s service rate."
+msgstr "成功停用 %s 个资费。"
+
+#: .\account\admin.py:178
+msgid "disable the selected service rate"
+msgstr "停用所选的 资费"
+
+#: .\account\models.py:17
+msgid "account_id"
+msgstr "客户标识"
+
+#: .\account\models.py:18 .\account\models.py:180 .\data\models.py:18
+#: .\data\models.py:82 .\data\models.py:147 .\message\models.py:18
+#: .\object\models.py:18 .\object\models.py:93 .\object\models.py:95
+#: .\output\models.py:18 .\parameter\models.py:18 .\parameter\models.py:89
+#: .\preprocess\models.py:18 .\preprocess\models.py:100 .\program\models.py:18
+#: .\project\models.py:18 .\source\models.py:18 .\source\models.py:90
+msgid "Identity cannot contain Chinese"
+msgstr "标识不能包含中文"
+
+#: .\account\models.py:19
+msgid "account_name"
+msgstr "客户姓名"
+
+#: .\account\models.py:20
+msgid "account_login"
+msgstr "客户统一登录名"
+
+#: .\account\models.py:21
+msgid "account_pin"
+msgstr "客户统一登录密码"
+
+#: .\account\models.py:23 .\account\models.py:109 .\account\models.py:187
+#: .\message\models.py:21 .\object\models.py:24 .\object\models.py:99
+#: .\output\models.py:24 .\parameter\models.py:21 .\parameter\models.py:92
+#: .\preprocess\models.py:21 .\preprocess\models.py:103 .\program\models.py:23
+#: .\project\models.py:49 .\source\models.py:23 .\source\models.py:93
+msgid "template"
+msgstr "样式"
+
+#: .\account\models.py:24 .\account\models.py:110 .\account\models.py:188
+#: .\message\models.py:22 .\object\models.py:25 .\object\models.py:100
+#: .\output\models.py:25 .\parameter\models.py:22 .\parameter\models.py:93
+#: .\preprocess\models.py:22 .\preprocess\models.py:104 .\program\models.py:24
+#: .\project\models.py:50 .\source\models.py:24 .\source\models.py:94
+msgid "script"
+msgstr "脚本"
+
+#: .\account\models.py:25 .\account\models.py:111 .\account\models.py:189
+#: .\message\models.py:24 .\object\models.py:26 .\object\models.py:101
+#: .\output\models.py:26 .\parameter\models.py:24 .\parameter\models.py:95
+#: .\preprocess\models.py:24 .\preprocess\models.py:106 .\program\models.py:25
+#: .\project\models.py:51 .\source\models.py:25 .\source\models.py:95
+msgid "version"
+msgstr "记录版本号"
+
+#: .\account\models.py:26 .\account\models.py:112 .\account\models.py:190
+#: .\data\models.py:23 .\data\models.py:87 .\data\models.py:152
+#: .\message\models.py:25 .\object\models.py:27 .\object\models.py:102
+#: .\output\models.py:27 .\parameter\models.py:25 .\parameter\models.py:96
+#: .\preprocess\models.py:25 .\preprocess\models.py:107 .\program\models.py:26
+#: .\project\models.py:52 .\source\models.py:26 .\source\models.py:96
+msgid "remark"
+msgstr "备注"
+
+#: .\account\models.py:28 .\account\models.py:114 .\account\models.py:192
+#: .\message\models.py:27 .\object\models.py:29 .\object\models.py:104
+#: .\output\models.py:29 .\parameter\models.py:27 .\parameter\models.py:98
+#: .\preprocess\models.py:27 .\preprocess\models.py:109 .\program\models.py:28
+#: .\project\models.py:54 .\source\models.py:28 .\source\models.py:98
+msgid "reference"
+msgstr "动作参考号"
+
+#: .\account\models.py:29 .\account\models.py:115 .\account\models.py:193
+#: .\data\models.py:25 .\data\models.py:89 .\data\models.py:154
+#: .\message\models.py:28 .\object\models.py:30 .\object\models.py:105
+#: .\output\models.py:30 .\parameter\models.py:28 .\parameter\models.py:99
+#: .\preprocess\models.py:28 .\preprocess\models.py:110 .\program\models.py:29
+#: .\project\models.py:26 .\project\models.py:55 .\source\models.py:29
+#: .\source\models.py:99
+msgid "date_created"
+msgstr "记录创建时间"
+
+#: .\account\models.py:30 .\account\models.py:116 .\account\models.py:194
+#: .\message\models.py:29 .\object\models.py:31 .\object\models.py:106
+#: .\output\models.py:31 .\parameter\models.py:29 .\parameter\models.py:100
+#: .\preprocess\models.py:29 .\preprocess\models.py:111 .\program\models.py:30
+#: .\project\models.py:56 .\source\models.py:30 .\source\models.py:100
+msgid "is_available"
+msgstr "是否启用"
+
+#: .\account\models.py:99
+msgid "bill_date"
+msgstr "出账时间"
+
+#: .\account\models.py:100
+msgid "bill_number"
+msgstr "账单号"
+
+#: .\account\models.py:101
+msgid "bill_memo"
+msgstr "账单"
+
+#: .\account\models.py:102
+msgid "biller"
+msgstr "出账方"
+
+#: .\account\models.py:103
+msgid "bill_account"
+msgstr "客户标识"
+
+#: .\account\models.py:105
+msgid "bill_amount"
+msgstr "费用"
+
+#: .\account\models.py:107
+msgid "bill_due"
+msgstr "到期日期"
+
+#: .\account\models.py:179
+msgid "rate_id"
+msgstr "资费标识"
+
+#: .\account\models.py:181
+msgid "rate_name"
+msgstr "资费名称"
+
+#: .\account\models.py:182
+msgid "rate_per_project"
+msgstr "分析项目基本费"
+
+#: .\account\models.py:183
+msgid "rate_per_object"
+msgstr "每对象分析费率"
+
+#: .\account\models.py:184
+msgid "rate_cycle"
+msgstr "计费周期"
+
+#: .\data\admin.py:16 .\data\admin.py:28 .\data\admin.py:41
+#: .\program\admin.py:16 .\program\models.py:33 .\program\models.py:34
+msgid "program"
+msgstr "程序"
+
+#: .\data\models.py:17
+msgid "original_data_id"
+msgstr "原始数据参考标识"
+
+#: .\data\models.py:19
+msgid "original_data_name"
+msgstr "原始数据名称"
+
+#: .\data\models.py:20 .\data\models.py:84 .\data\models.py:149
+#: .\project\models.py:17
+msgid "project_id"
+msgstr "分析项目标识"
+
+#: .\data\models.py:22 .\data\models.py:86 .\data\models.py:151
+msgid "data"
+msgstr "数据"
+
+#: .\data\models.py:28 .\data\models.py:29
+msgid "original_data"
+msgstr "原始数据"
+
+#: .\data\models.py:81
+msgid "format_data_id"
+msgstr "格式化数据标识"
+
+#: .\data\models.py:83
+msgid "format_data_name"
+msgstr "格式化数据名称"
+
+#: .\data\models.py:92 .\data\models.py:93
+msgid "format_data"
+msgstr "格式化数据"
+
+#: .\data\models.py:146
+msgid "calculate_data_id"
+msgstr "计算数据标识"
+
+#: .\data\models.py:148
+msgid "calculate_data_name"
+msgstr "计算数据名称"
+
+#: .\data\models.py:157 .\data\models.py:158
+msgid "calculate_data"
+msgstr "计算数据"
+
+#: .\message\admin.py:16 .\message\models.py:32
+msgid "message_out"
+msgstr "提示信息"
+
+#: .\message\admin.py:33
+#, python-format
+msgid "Successfully enabled %s message_out"
+msgstr "成功启用 %s 个提示信息。"
+
+#: .\message\admin.py:36
+msgid "Enable selected message out"
+msgstr "启用所选的 提示信息"
+
+#: .\message\admin.py:49
+#, python-format
+msgid "Successfully disabled %s message_out"
+msgstr "成功停用 %s 个提示信息。"
+
+#: .\message\admin.py:52
+msgid "Disable selected message out"
+msgstr "停用所选的 提示信息"
+
+#: .\message\models.py:17
+msgid "msg_out_id"
+msgstr "提示信息标识"
+
+#: .\message\models.py:19
+msgid "msg_out_name"
+msgstr "提示信息名称"
+
+#: .\message\models.py:23 .\parameter\models.py:23 .\parameter\models.py:94
+#: .\preprocess\models.py:23 .\preprocess\models.py:105
+msgid "Please enter JSON format data"
+msgstr "请输入JSON格式数据"
+
+#: .\message\models.py:33
+msgid "messages_out"
+msgstr "提示信息"
+
+#: .\object\admin.py:17 .\object\models.py:34 .\object\models.py:35
+msgid "object_group"
+msgstr "分析对象组"
+
+#: .\object\admin.py:37
+#, python-format
+msgid "Successfully enabled %s object group. "
+msgstr "成功启用 %s 个分析对象组。"
+
+#: .\object\admin.py:40
+msgid "enable the selected object group"
+msgstr "启用所选的 分析对象组"
+
+#: .\object\admin.py:53
+#, python-format
+msgid "Successfully disable %s object group "
+msgstr "成功停用 %s 个分析对象组。"
+
+#: .\object\admin.py:56
+msgid "disable the selected object group"
+msgstr "停用所选的 分析对象组"
+
+#: .\object\admin.py:68 .\object\models.py:109 .\object\models.py:110
+msgid "object"
+msgstr "分析对象"
+
+#: .\object\admin.py:89
+#, python-format
+msgid "Successfully enabled %s object "
+msgstr "成功启用 %s 分析对象。"
+
+#: .\object\admin.py:92
+msgid "enable the selected object"
+msgstr "启用所选的 分析对象"
+
+#: .\object\admin.py:105
+#, python-format
+msgid "Successfully disable %s object "
+msgstr "成功停用 %s 个分析对象。"
+
+#: .\object\admin.py:108
+msgid "disable the selected object"
+msgstr "停用所选的 分析对象"
+
+#: .\object\models.py:17 .\object\models.py:90
+msgid "obj_group_id"
+msgstr "分析对象组标识"
+
+#: .\object\models.py:19
+msgid "obj_group_name"
+msgstr "分析对象组名称"
+
+#: .\object\models.py:20
+msgid "object_category"
+msgstr "分析对象类型"
+
+#: .\object\models.py:21
+msgid "compressor"
+msgstr "压缩机"
+
+#: .\object\models.py:21
+msgid "boiler"
+msgstr "锅炉"
+
+#: .\object\models.py:21
+msgid "engline"
+msgstr "柴油机"
+
+#: .\object\models.py:22
+msgid "generator"
+msgstr "发电机组"
+
+#: .\object\models.py:92
+msgid "object_id"
+msgstr "分析对象标识"
+
+#: .\object\models.py:94
+msgid "object_reference_id"
+msgstr "分析对象参考标识"
+
+#: .\object\models.py:96
+msgid "object_name"
+msgstr "分析对象名称"
+
+#: .\object\models.py:97
+msgid "object_model"
+msgstr "分析对象型号"
+
+#: .\output\admin.py:17 .\output\models.py:34 .\output\models.py:35
+msgid "dashboard"
+msgstr "显示板"
+
+#: .\output\admin.py:36
+#, python-format
+msgid "Successfully enabled %s dashboard. "
+msgstr "成功启用 %s 个显示板。"
+
+#: .\output\admin.py:38
+msgid "enable the selected dashboard"
+msgstr "启用所选的 显示板"
+
+#: .\output\admin.py:58
+#, python-format
+msgid "Successfully disable %s dashboard. "
+msgstr "成功停用 %s 个显示板。"
+
+#: .\output\admin.py:61
+msgid "disable the selected dashboard"
+msgstr "停用所选的 显示板"
+
+#: .\output\models.py:17
+msgid "dashboard_id"
+msgstr "显示板标识"
+
+#: .\output\models.py:19
+msgid "dashboard_url"
+msgstr "显示板URL"
+
+#: .\output\models.py:20
+msgid "dashboard_account"
+msgstr "所属客户标识"
+
+#: .\output\models.py:22
+msgid "dashboard_project"
+msgstr "分析项目标识"
+
+#: .\parameter\admin.py:16 .\parameter\models.py:32 .\parameter\models.py:33
+msgid "analysis_parameter"
+msgstr "分析参数"
+
+#: .\parameter\admin.py:33
+#, python-format
+msgid "Successfully enabled %s analysis_parameter"
+msgstr "成功启用 %s 分析参数。"
+
+#: .\parameter\admin.py:36
+msgid "Enable selected analysis parameter"
+msgstr "启用所选的 分析参数"
+
+#: .\parameter\admin.py:49
+#, python-format
+msgid "Successfully disabled %s analysis_parameter"
+msgstr "成功停用 %s 个分析参数。"
+
+#: .\parameter\admin.py:52
+msgid "disable the selected analysis parameter"
+msgstr "停用所选的 分析参数"
+
+#: .\parameter\admin.py:64 .\parameter\models.py:103 .\parameter\models.py:104
+msgid "optimization_parameter"
+msgstr "优化参数"
+
+#: .\parameter\admin.py:79
+#, python-format
+msgid "Successfully enabled %s optimization parameter"
+msgstr "成功启用 %s 个优化参数。"
+
+#: .\parameter\admin.py:82
+msgid "Enable selected optimization parameter"
+msgstr "启用所选的 优化标参数"
+
+#: .\parameter\admin.py:94
+#, python-format
+msgid "Successfully disabled %s optimization parameter"
+msgstr "成功停用 %s 个优化参数。"
+
+#: .\parameter\admin.py:97
+msgid "disable the selected optimization parameter"
+msgstr "停用所选的 优化参数"
+
+#: .\parameter\models.py:17
+msgid "ana_para_id"
+msgstr "分析参数标识"
+
+#: .\parameter\models.py:19
+msgid "ana_para_name"
+msgstr "分析参数名称"
+
+#: .\parameter\models.py:88
+msgid "opt_para_id"
+msgstr "优化参数标识"
+
+#: .\parameter\models.py:90
+msgid "opt_para_name"
+msgstr "优化参数名称"
+
+#: .\preprocess\admin.py:16 .\preprocess\models.py:32 .\preprocess\models.py:33
+msgid "data_filter"
+msgstr "过滤器"
+
+#: .\preprocess\admin.py:39
+#, python-format
+msgid "Successfully enabled %s data filter "
+msgstr "成功启用 %s 个过滤器。"
+
+#: .\preprocess\admin.py:42
+msgid "enable the selected data filter"
+msgstr "启用所选的 过滤器"
+
+#: .\preprocess\admin.py:57
+#, python-format
+msgid "Successfully disable %s data filter "
+msgstr "成功停用 %s 个过滤器。"
+
+#: .\preprocess\admin.py:60
+msgid "disable the selected data filter"
+msgstr "停用所选的 过滤器"
+
+#: .\preprocess\admin.py:71 .\preprocess\models.py:114
+#: .\preprocess\models.py:115
+msgid "data_organizer"
+msgstr "组织器"
+
+#: .\preprocess\admin.py:94
+#, python-format
+msgid "Successfully enabled %s data organizer "
+msgstr "成功启用 %s 个组织器。"
+
+#: .\preprocess\admin.py:97
+msgid "enable the selected data organizer"
+msgstr "启用所选的 组织器"
+
+#: .\preprocess\admin.py:113
+#, python-format
+msgid "Successfully disable %s data organizer "
+msgstr "成功禁用 %s 个数据源。"
+
+#: .\preprocess\admin.py:116
+msgid "disable the selected data organizer"
+msgstr "停用所选的 组织器"
+
+#: .\preprocess\models.py:17
+msgid "filter_id"
+msgstr "过滤器标识"
+
+#: .\preprocess\models.py:19
+msgid "filter_name"
+msgstr "过滤器名称"
+
+#: .\preprocess\models.py:99
+msgid "organizer_id"
+msgstr "组织器标识"
+
+#: .\preprocess\models.py:101
+msgid "organizer_name"
+msgstr "组织器名称"
+
+#: .\program\admin.py:33
+#, python-format
+msgid "Successfully enabled %s program"
+msgstr "成功启用 %s 个程序。"
+
+#: .\program\admin.py:36
+msgid "Enable selected program"
+msgstr "启用所选的 程序"
+
+#: .\program\admin.py:49
+#, python-format
+msgid "Successfully disabled %s program"
+msgstr "成功停用 %s 个程序。"
+
+#: .\program\admin.py:52
+msgid "disable the selected program"
+msgstr "停用所选的 程序"
+
+#: .\program\models.py:17
+msgid "program_id"
+msgstr "程序标识"
+
+#: .\program\models.py:19
+msgid "program_name"
+msgstr "程序名称"
+
+#: .\program\models.py:20
+msgid "program_type"
+msgstr "程序类型"
+
+#: .\project\admin.py:18 .\project\models.py:59 .\project\models.py:60
+msgid "analytic_project"
+msgstr "分析项目"
+
+#: .\project\admin.py:68
+#, python-format
+msgid "%s analytic project have been successfully enabled"
+msgstr "成功启用了 %s 个分析项目"
+
+#: .\project\admin.py:71
+msgid "enable the selected analytic project"
+msgstr "启用所选的 分析项目"
+
+#: .\project\admin.py:96
+#, python-format
+msgid "Successfully disable %s analytic project. "
+msgstr "成功禁用 %s 个分析项目。"
+
+#: .\project\admin.py:99
+msgid "disable the selected analytic project"
+msgstr "停用所选的 分析项目"
+
+#: .\project\models.py:19
+msgid "project_name"
+msgstr "分析服务项目名称"
+
+#: .\project\models.py:20
+msgid "project_account"
+msgstr "所属客户标识"
+
+#: .\project\models.py:23
+msgid "project_start_from"
+msgstr "分析项目起始日期"
+
+#: .\project\models.py:24
+msgid "project_end_by"
+msgstr "分析项目结束日期"
+
+#: .\project\models.py:28
+msgid "project_source"
+msgstr "数据源"
+
+#: .\project\models.py:30
+msgid "project_pipe"
+msgstr "数据管道"
+
+#: .\project\models.py:32
+msgid "project_filter"
+msgstr "过滤器"
+
+#: .\project\models.py:34
+msgid "project_organizer"
+msgstr "组织器"
+
+#: .\project\models.py:36
+msgid "project_obj_group"
+msgstr "分析对象组"
+
+#: .\project\models.py:38
+msgid "project_ana_para"
+msgstr "分析参数"
+
+#: .\project\models.py:40
+msgid "project_opt_para"
+msgstr "优化参数"
+
+#: .\project\models.py:42
+msgid "project_dashboard"
+msgstr "显示板"
+
+#: .\project\models.py:44
+msgid "project_msg_out"
+msgstr "提示信息"
+
+#: .\project\models.py:46
+msgid "project_rate"
+msgstr "服务费率"
+
+#: .\source\admin.py:17 .\source\models.py:33 .\source\models.py:34
+msgid "data_source"
+msgstr "数据源"
+
+#: .\source\admin.py:36
+#, python-format
+msgid "Successfully enabled %s data_source"
+msgstr "成功启用 %s 数据源。"
+
+#: .\source\admin.py:39
+msgid "Enable selected data_source"
+msgstr "启用所选的 数据源"
+
+#: .\source\admin.py:51
+#, python-format
+msgid "Successfully disable %s data source. "
+msgstr "成功启用 %s 个数据源。"
+
+#: .\source\admin.py:54
+msgid "disable the selected data source"
+msgstr "停用所选的 数据源"
+
+#: .\source\admin.py:65 .\source\models.py:103 .\source\models.py:104
+msgid "data_pipe"
+msgstr "数据管道"
+
+#: .\source\admin.py:85
+#, python-format
+msgid "Successfully enabled %s data pipe. "
+msgstr "成功启用 %s 个数据管道。"
+
+#: .\source\admin.py:88
+msgid "enable the selected data pipe"
+msgstr "启用所选的 数据管道"
+
+#: .\source\admin.py:101
+#, python-format
+msgid "Successfully disable %s data pipe. "
+msgstr "成功停用 %s 个数据管道。"
+
+#: .\source\admin.py:104
+msgid "disable the selected data pipe"
+msgstr "停用所选的 数据管道"
+
+#: .\source\models.py:17
+msgid "source_id"
+msgstr "数据源标识"
+
+#: .\source\models.py:19
+msgid "source_name"
+msgstr "数据源名称"
+
+#: .\source\models.py:20
+msgid "source_mode"
+msgstr "数据源模式"
+
+#: .\source\models.py:89
+msgid "pipe_id"
+msgstr "数据管道标识"
+
+#: .\source\models.py:91
+msgid "pipe_name"
+msgstr "数据管道名称"
+
+#: .\system\admin.py:14 .\system\models.py:16 .\system\models.py:19
+#: .\system\models.py:20
+msgid "action_record"
+msgstr "执行记录"
+
+#: .\system\admin.py:27 .\system\models.py:53 .\system\models.py:54
+msgid "log"
+msgstr "日志记录"
+
+#: .\system\admin.py:39 .\system\models.py:87 .\system\models.py:88
+msgid "message"
+msgstr "输出消息记录"
+
+#: .\system\models.py:13
+msgid "action_data_time"
+msgstr "动作记录时间"
+
+#: .\system\models.py:14
+msgid "action_assigner"
+msgstr "动作来自"
+
+#: .\system\models.py:15
+msgid "action_reference"
+msgstr "动作参考号"
+
+#: .\system\models.py:47
+msgid "log_data_time"
+msgstr "日志记录时间"
+
+#: .\system\models.py:48
+msgid "log_assigner"
+msgstr "日志来自"
+
+#: .\system\models.py:49
+msgid "log_reference"
+msgstr "日志参考号"
+
+#: .\system\models.py:50
+msgid "log_record"
+msgstr "日志记录"
+
+#: .\system\models.py:81
+msgid "message_data_time"
+msgstr "消息记录时间"
+
+#: .\system\models.py:82
+msgid "message_assigner"
+msgstr "消息来自"
+
+#: .\system\models.py:83
+msgid "message_reference"
+msgstr "消息参考号"
+
+#: .\system\models.py:84
+msgid "message_record"
+msgstr "消息记录"
+
+#: .\templates\admin\index.html:12
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr ""
+
+#: .\templates\admin\index.html:23
+msgid "Add"
+msgstr "添加"
+
+#: .\templates\admin\index.html:29
+msgid "Change"
+msgstr "编辑"
+
+#: .\templates\admin\index.html:39
+msgid "You don't have permission to edit anything."
+msgstr ""
+
+#: .\util\data_validate.py:21
+msgid "Cannot contain Chinese"
+msgstr "不能包含中文"
+
+#: .\util\data_validate.py:33 .\util\data_validate.py:46
+#: .\util\data_validate.py:77
+msgid "Filling out the data does not conform to the JSON format"
+msgstr "填写的数据不符合JSON格式"
+
+#~ msgid "format_data "
+#~ msgstr "格式化数据"
