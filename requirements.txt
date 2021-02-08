@@ -18,7 +18,7 @@ Flask-WTF==0.14.2
 future==0.16.0
 greenlet==0.4.13
 haystack==0.42
-httplib2==0.11.3
+httplib2==0.19.0
 idna==2.6
 ipython==6.4.0
 ipython-genutils==0.2.0
