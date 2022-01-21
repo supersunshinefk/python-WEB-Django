@@ -20,7 +20,7 @@ greenlet==0.4.13
 haystack==0.42
 httplib2==0.11.3
 idna==2.6
-ipython==6.4.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 itsdangerous==0.24
 jedi==0.12.0
